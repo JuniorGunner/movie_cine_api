@@ -2,7 +2,7 @@
 MovieCine is an API service built with Django Ninja that allows the user to manage a cinema program. It enables adding new movies, updating their status and ranking, and provides a mechanism to display trending movies. Data is stored in a Postgres database and synchronized to MongoDB for querying. The project uses Celery for task management and Redis and RabbitMQ for message passing.
 
 ## 🛠 Tech Stack
-* 🐍 Django Ninja
+* 🥷 Django Ninja
 * 🐘 Postgres
 * 🍃 MongoDB
 * 🥬 Celery
