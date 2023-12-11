@@ -1,0 +1,33 @@
+Hey guys!
+ First of all, thank you for your application! Here is the mini test to get you know better.
+ As a pre-seed startup, we value our team members’ dedication and contribution to the project, as well as their ability to make critical decisions and adaptability to changes in an agile environment.
+  
+There is a lot on the stake!
+ Ideal applicants chosen to join the initial team at this stage, will become the core decision makers as the time will move and our company scales, meaning that some will be given shares, company’s board membership, relocation opportunities, etc. In other words, this is an opportunity to make a fortune within years to come and all is dependent on you.
+
+The task (Our project has nothing to do with the task):
+1) We should be able to add new movies to a cinema program, via api.
+Each movie needs to have:
+- name
+- protagonists
+- poster (image)
+- start_date
+- status (coming-up, starting, running, finished)
+- ranking (the field to help us sort “trending” rooms
+
+2) Sync postgres movie instances to mongodb, account all the cases (creation, deletion, etc). 
+
+3) The ranking of each movie can be faked at first, however from the movie creation(status=upcoming) to the movie launch (status=running), the rank of each instance should increase by 10, once every 5 minutes.
+
+4) We need an api to list sorted trending movies from mongodb. 
+
+5) Code has to be tested right?! Pytest, your code.
+
+Stack: Postgres | MongoDB | Celery | Redis | RabbitMQ | Django ninja.
+We are curious to see how you will structure the project, define models/schemas, configure settings of the project and organize apis and urls.
+Please add a readme.md file and share how we can run the project. It would be best if you could add a docker-compose.yml file to run all the dependencies (ChatGPT will do the job if you are not that docker proficient).
+
+You are welcome to share the git repository once the project is complete.
+
+Alright,
+Good luck!
